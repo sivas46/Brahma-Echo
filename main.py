@@ -2466,7 +2466,7 @@ class BrahmaLive:
 def main():
     _startup_log("main entered")
     _ensure_desktop_shortcut()
-    ui = BrahmaUI(str(BASE_DIR / "assets" / "Brahma_Lite_Logo.png"), show_immediately=True)
+    ui = BrahmaUI(str(BASE_DIR / "assets" / "AARA_Logo.png"), show_immediately=True)
     dashboard = None
     dashboard_enabled = DashboardServer is not None and not _is_port_in_use(8000)
     if DashboardServer is not None and not dashboard_enabled:
